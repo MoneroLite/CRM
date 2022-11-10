@@ -1,2 +1,8 @@
 client/node_modules
 server/node_modules
+client/yarn.lock
+server/yarn.lock
+client/yarn-error.log
+server/yarn-error.log
+client/yarn.lock
+server/yarn.lock
