@@ -1,10 +1,11 @@
+import { Layout } from '@/components/layouts/Layout';
 import Home from '@/components/screens/home/Home';
 
 const HomePage = () => {
   return (
-    <div>
+    <Layout rightSide={true}>
       <Home />
-    </div>
+    </Layout>
   );
 };
 
