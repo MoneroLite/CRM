@@ -1,11 +1,14 @@
+@import '../default_variables.scss';
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  /* color-scheme: dark; */
-
+  // color-scheme: light dark;
+  width: 100vw;
+  overflow: hidden;
+  background-color: $LightBgColor;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,8 +17,34 @@
   -webkit-text-size-adjust: 100%;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #30A62A;
+  color: #fff;
+}
+::selection {
+  background-color: #30A62A;
+  color: #fff;
+}
+
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     background-color: $LightBgColor;
+//   }
+// }
 
 
-/* @media (prefers-color-scheme: light) {
-  
-} */
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     background-color: $DarkBgColor;
+//   }
+// }
