@@ -1,0 +1,23 @@
+.wrapItem {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background: #F0F0F0;
+    }
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 20px;
+}
+    

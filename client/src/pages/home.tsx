@@ -3,7 +3,7 @@ import Home from '@/components/screens/home/Home';
 
 const HomePage = () => {
   return (
-    <Layout rightSide={true}>
+    <Layout rightSide={false}>
       <Home />
     </Layout>
   );
